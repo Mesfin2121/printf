@@ -10,7 +10,7 @@ int print_R(va_list arg)
 	char *str = va_arg(arg, char *);
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	
+
 	for (i = 0; str[i]; i++)
 	{
 		for (j = 0; j < 52; j++)
